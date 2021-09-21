@@ -1664,6 +1664,9 @@ h1, .h1, h2, .h2, h3, .h3, h5, .h5, h6, .h6, p, span {
 }
 
 /* Active link of nav */
+.active-link {
+    border-bottom: 3px solid #106cf9;
+}
 
 .our-team-picture {
   -webkit-transition: all .2s;

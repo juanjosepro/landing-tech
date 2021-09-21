@@ -88,5 +88,3 @@ const watch = new IntersectionObserver(watchScroll, {
 });
 
 sections.forEach(section => watch.observe(section));
-
-/* Arrow Up */
