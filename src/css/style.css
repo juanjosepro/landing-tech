@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Nav sticky */
+.my-sticky {
+  background: #ffffff;
+  padding: 3px 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  font-size: 52px;
+}
+
+.inverted-color {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.text-aj {
+  text-align: justify;
+}
+
+.team-card-1 {
+  border-radius: 1.5rem 2.5rem 1.5rem 4.375rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.9);
+}
+
+.team-card-2 {
+  border-radius: 1.5rem 4.375rem 1.5rem 2.5rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.9);
+}
+
+.team-card-3 {
+  border-radius: 1.5rem 1.5rem 4.375rem 2.5rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.9);
+}
+
+.team-card-4 {
+  border-radius: 4.375rem 2.5rem 1.5rem 1.5rem;
+  border: 0.125rem solid rgba(161, 79, 79, 0.9);
+}
+
+.border-radius-r {
+  border-radius: 0 7rem 7rem 0;
+}
+
+.contact {
+  background: #ebe1f8;
+}
+
+.rounded-text-area {
+  border-radius: 1rem;
+}
+
+/* Style of Icon of section contact */
+.icon {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Header height with two sizes */
+@media (min-width: 991px) {
+  .vh {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .vh {
+    height: 100vh;
+  }
+}
+
+/* Footer social networks */
+.social {
+  background: #0880e8;
+  margin-right: 5px;
+}
+
+.social:hover {
+  background: #f6b024;
+}
+
+/* Active link of nav */
+.active-link {
+  border-bottom: 3px solid #106cf9;
+}
+
+.our-team-picture {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.our-team-picture:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1) rotate(1deg);
+          transform: scale(1) rotate(1deg);
+}
+/*# sourceMappingURL=style.css.map */
