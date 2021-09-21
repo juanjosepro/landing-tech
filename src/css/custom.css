@@ -12054,4 +12054,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
   -webkit-transform: scale(1.1) rotate(1deg);
           transform: scale(1.1) rotate(1deg);
 }
+
+.hide-btn-arrow-up {
+    display:none
+}
+.show-btn-arrow-up {
+    display:block
+}
 /*# sourceMappingURL=custom.css.map */
